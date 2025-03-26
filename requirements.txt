@@ -1,0 +1,4 @@
+groq
+playwright
+selectolax
+python-dotenv

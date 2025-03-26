@@ -1,0 +1,42 @@
+{
+    "url": "https://apartments.com",
+    "timeout": 120000,
+    "waitSelector": "div#placardContainer ul li.mortar-wrapper",
+    "parentContainer": {
+        "selector": "div#placardContainer ul li.mortar-wrapper",
+        "type": "[node]",
+        "description": "returns all the property listings separately as nodes."
+    },
+    "items": {
+        "searchHeading": {
+            "selector": "div.placardContainer > h1.placardSearchHeading",
+            "type": "node",
+            "description": "Used to fetch the location currently being scraped."
+        },
+        "searchBox": {
+            "selector": "input#quickSearchLookup",
+            "type": "node",
+            "description": "Search box used to type lookup location."
+        },
+        "searchButton": {
+            "selector": "button.typeaheadSearch",
+            "type": "node",
+            "description": "Search button which is clicked after location is enetered in search box."
+        },
+        "nextButton": {
+            "selector": "a[aria-label='Next Page'] > span.pagingBtn",
+            "type": "node",
+            "description": "returns the next button used to go forward."
+        }
+    },
+    "llmConfig": {
+        "model": "llama-3.1-8b-instant",
+        "responseFormat": {
+            "type": "json_object"
+        },
+        "systemPrompt": {
+            "role": "system",
+            "content": "You are an assistant that extracts structured data from real estate listings. \n                You will receive Text content from HTML of each property listing, and your task is to extract and return the relevant information in valid JSON format.\n\n                Required fields:\n                - 'Price': (string) Price of the property. can be a range or single value.  \n                - 'price_type': (string) \"range\" if there is a price range, otherwise \"fixed\".\n                - 'Beds': (int) Number of bedrooms.\n                - 'Baths': (float) Number of bathrooms if given otherwise return null.\n                - 'Address': (string) The address of the house. if not given, return null.\n\n                Example output:\n                {\n                    \"Price\": \"2300-3500\",\n                    \"price_type\": \"range\",\n                    \"Beds\": 2,\n                    \"Baths\":3.5,\n                    \"Address\": \"Main avenue field, 365 street\"\n                }\n\n                **Important Notes:**\n                - Extract numerical values only, removing currency symbols.\n                - Ensure the output is valid JSON.\n\n                IMPORTANT: Output ONLY valid JSON\u2014no explanations, no summaries, and no preamble.\n                "
+        }
+    }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.vscode/
+.idea/
+*.swp
+outputs/*.json
+logs/
+*.log
+
+playwright/.cache/
