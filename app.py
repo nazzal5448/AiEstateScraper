@@ -4,6 +4,8 @@ import json
 import time
 import asyncio
 from main import render_and_extract
+import platform
+import glob
 
 # Ensure directories exist
 os.makedirs("outputs", exist_ok=True)
@@ -679,3 +681,34 @@ with property_container:
 if is_scraping_active():
     time.sleep(1)  # Small delay
     st.rerun() 
+
+# Function to determine if we're running in a cloud environment
+def is_cloud_environment():
+    return os.environ.get("STREAMLIT_CLOUD") is not None or \
+           os.environ.get("IS_CLOUD_ENV") is not None or \
+           os.path.exists("/.dockerenv")
+
+# Function to load pre-scraped data
+def load_prescraped_data():
+    try:
+        with open("outputs/outputs.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading pre-scraped data: {e}")
+        return []
+
+# Now in the main section where we check if we should start scraping
+if submit_button and not is_scraping_active():
+    if is_cloud_environment() or not location:
+        # In cloud environment, use pre-scraped data
+        demo_location = location if location else "Sample Location"
+        st.session_state.location = demo_location
+        st.session_state.scraping_active = False
+        st.session_state.scraping_status = "Using pre-scraped demo data"
+        st.session_state.page_info = {"current_page": 1, "total_pages": 1}
+        demo_properties = load_prescraped_data()
+        display_properties(demo_properties)
+    else:
+        # Only run live scraping in local environment
+        run_scraper(location, headless)
+        st.experimental_rerun() 
