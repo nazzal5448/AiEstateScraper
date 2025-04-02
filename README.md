@@ -1,14 +1,56 @@
-# AiEstateScraper: Apartment Data Scraper
+# AI Estate Scraper
 
-This project is a web scraper that uses Large Language Models (LLMs), Playwright, and Selectolax to extract property listings from **apartments.com**. It retrieves details such as price, address, and other property-related information for a given location.
+A web-based interface for scraping property listings from apartments.com with real-time progress updates and results display.
 
 ## Features
 
-- **Scrape apartments.com**: Extract property listings based on user-provided locations.
-- **Playwright for automation**: Simulate human-like browser interactions to avoid detection.
-- **Selectolax for parsing**: Efficiently parse and extract data from HTML content.
-- **LLM Integration**: Utilize a Large Language Model for data processing or enhancing extracted information.
-- **Structured Outputs**: Store extracted data in a JSON format.
+- Real-time property scraping with visual feedback
+- Progress tracking and status updates
+- Immediate display of properties as they're found
+- Download results as JSON
+- User-friendly interface
+
+## Setup
+
+1. Clone this repository
+2. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Install Playwright browsers:
+   ```
+   playwright install
+   ```
+4. Create a `.env` file in the root directory with your Groq API key:
+   ```
+   GROQ_API_KEY=your_api_key_here
+   ```
+
+## Usage
+
+1. Run the Streamlit app:
+   ```
+   streamlit run app.py
+   ```
+2. Enter a location (city, neighborhood, or zip code)
+3. Choose whether to run in headless mode or not
+4. Click "Start Scraping" and watch the results in real-time
+
+## How It Works
+
+The application uses:
+- Playwright for rendering and interacting with web pages
+- Groq API (with LLama 3) for extracting property information
+- Streamlit for the web interface
+- Selectolax for HTML parsing
+
+As properties are found, they are immediately displayed in the interface, allowing you to see results as they come in rather than waiting for the entire scraping process to finish.
+
+## Requirements
+
+- Python 3.7+
+- Groq API key
+- Internet connection
 
 ## Project Structure
 
@@ -22,57 +64,13 @@ AiEstateScraper/
 │    └── outputs.json        # JSON file containing extracted property listings
 │
 ├── utils/                  # Utility scripts
-│    ├── extract.py          # Main scraper logic using Playwright and Selectolax
-│    └── render.py           # Handles rendering and data processing
+│    ├── extract.py          # Main scraper logic using LLM and Selectolax
+│    └── render.py           # Handles rendering and data processing using Playwright
 │
 ├── .env                    # Environment variables (e.g., API keys, LLM credentials)
 ├── main.py                 # Entry point for the scraper
 └── requirements.txt        # Project dependencies
 ```
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/nazzal5448/AiEstateScraper.git
-   cd AiEstateScraper
-   ```
-
-2. Create a virtual environment and activate it:
-
-   ```bash
-   python -m venv venv
-   # On Windows
-   venv\Scripts\activate
-   # On Linux/Mac
-   source venv/bin/activate
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   playwright install
-   ```
-
-4. Set up the `.env` file with GROQ_API_KEY = "your_groq_api_key"
-
-## Usage
-
-
-1. Run the scraper:
-
-   ```bash
-   python main.py
-   ```
-2. Enter location in terminal.
-
-3. View the results in `outputs/outputs.json`.
-
-## Custom Configurations
-
-You can configure the scraper by modifying `config/tools.py` and then running it. 
 
 ## Dependencies
 

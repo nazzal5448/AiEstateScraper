@@ -1,0 +1,314 @@
+[
+    {
+        "Price": "2175-2375",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "45660 Jillian Ct, Great Mills, MD 20634",
+        "thumbnail_url": "https://images1.apartments.com/i2/nBRCqgcDoeWFLjzgGlxP69_7ytqtD0UOp4CkdwFb5MQ/118/villas-at-greenview-west-great-mills-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": 1200,
+        "price_type": "fixed",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "45970 Foxchase Dr, Great Mills, MD 20634",
+        "thumbnail_url": "https://images1.apartments.com/i2/P6ahfgoVFFfUfzK8MVp1Kh3AGWDi8tY00swd2_VcsNQ/118/admirals-landing-great-mills-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1035-1750",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "46533 Valley Ct, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/42vxH_7QJfx697meKsPbGUuyWWJQ6uBM3k_ccMu-Epw/118/spring-valley-apartments-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1142-1500",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "21691 Eric Rd, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/4YyKZj9C2LT8HdmEWQXf7Y4iDYsXExN-ckbnzhN8fRI/115/patuxent-crossing-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2900",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 4.0,
+        "Address": "45318 Fog Horn Wy, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/sK_Mf1AZb2szox-Bqj53F-SyBNb8sHYRvyxIVimU4Cs/115/45318-fog-horn-wy-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "$2800",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3.5,
+        "Address": "21298 Bethmill Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/oVuTQH5WKUI5wWI0FRaCVogpVZlMVwVgLZB9YNGn1oU/115/21298-bethmill-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1725",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1.0,
+        "Address": "22572 Dunleigh Dr Unit B, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/ip3r8upcJNmWl21X1qpcTxYiYYg_YMfSbs4B67Mci9Q/115/22572-dunleigh-dr-unit-b-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "$1,545 - $2,025",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "23314 Surrey Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/mymxPoPjBKeCgNI-ZLS-6Mbu0RBTBrG3ebahz-vH424/118/the-apartments-of-wildewood-california-md-interior-photo.jpg?p=1"
+    },
+    {
+        "Price": "2150",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 2.5,
+        "Address": "45264 Woodstown Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/8k9t2PGy31o8Hum8yvmjpV0YNPuP6l20MPSm7ZWslGc/115/45264-woodstown-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2200-3000",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": 1,
+        "Address": "45278 Cove Manor Rd, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/p1PMOPP4SEHyUTcUepRp8pIf2gvEvxJ-5tZlOaZMUz0/115/45278-cove-manor-rd-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "3200",
+        "price_type": "fixed",
+        "Beds": 4,
+        "Baths": 3.5,
+        "Address": "23259 Windflower Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/fcDmRuRJd2GBVrsv8wyh-fLVRrcAfy28KilkbNsCnCI/115/23259-windflower-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2200",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3,
+        "Address": "23056 Foxglove Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/OVpv0P-Ul7MW0AZhOhd68noel__Zn-CW6qlt7h7r4nQ/115/23056-foxglove-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1795-1965",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "21295 Mayfaire Ln, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/jLaEf9yQ64NNPPKvAOW0kcJwkWa9DZHT1hoZTymQqZs/118/park-villas-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2175-2375",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "45660 Jillian Ct, Great Mills, MD 20634",
+        "thumbnail_url": "https://images1.apartments.com/i2/nBRCqgcDoeWFLjzgGlxP69_7ytqtD0UOp4CkdwFb5MQ/118/villas-at-greenview-west-great-mills-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": 1200,
+        "price_type": "fixed",
+        "Beds": 2.5,
+        "Baths": null,
+        "Address": "45970 Foxchase Dr, Great Mills, MD 20634",
+        "thumbnail_url": "https://images1.apartments.com/i2/P6ahfgoVFFfUfzK8MVp1Kh3AGWDi8tY00swd2_VcsNQ/118/admirals-landing-great-mills-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "$2,350",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3.0,
+        "Address": "22789 Bayside Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/Max7_pRpojl5yq0Wb-0Otd7Iai79QG6_wLVi9blL1kY/115/22789-bayside-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "900",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "21628 Great Mills Rd Unit E, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-e-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1142-1500",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "21691 Eric Rd, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/4YyKZj9C2LT8HdmEWQXf7Y4iDYsXExN-ckbnzhN8fRI/115/patuxent-crossing-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "900",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1.0,
+        "Address": "21628 Great Mills Rd Unit E2, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-e2-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2900",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 4,
+        "Address": "45318 Fog Horn Wy, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/sK_Mf1AZb2szox-Bqj53F-SyBNb8sHYRvyxIVimU4Cs/115/45318-fog-horn-wy-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1050",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "21632 Great Mills Rd Unit 2, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/jQpJLdvMQM8c_WMBKNrvWYPFzQs8vzizfp_t6b-k3Yo/115/21632-great-mills-rd-unit-2-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2880",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3.5,
+        "Address": "21298 Bethmill Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/oVuTQH5WKUI5wWI0FRaCVogpVZlMVwVgLZB9YNGn1oU/115/21298-bethmill-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2200",
+        "price_type": "fixed",
+        "Beds": 4,
+        "Baths": 1.5,
+        "Address": "46359 Columbus Dr, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/Ln1m0Qp5Y_K4hIjKdguBFtoGp-CkUijvDDSI52tu694/115/46359-columbus-dr-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1725",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "22572 Dunleigh Dr Unit B, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/ip3r8upcJNmWl21X1qpcTxYiYYg_YMfSbs4B67Mci9Q/115/22572-dunleigh-dr-unit-b-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2150",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 2.5,
+        "Address": "45264 Woodstown Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/8k9t2PGy31o8Hum8yvmjpV0YNPuP6l20MPSm7ZWslGc/115/45264-woodstown-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": 1050,
+        "price_type": "fixed",
+        "Beds": 0,
+        "Baths": 1,
+        "Address": "21632 Great Mills Rd Unit 1, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/Y8IUdKWMKLyVk2kJ08X4hLGx2P7HjYxQvlcNJ88XJBc/115/21632-great-mills-rd-unit-1-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2200",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 1.0,
+        "Address": "45278 Cove Manor Rd, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/p1PMOPP4SEHyUTcUepRp8pIf2gvEvxJ-5tZlOaZMUz0/115/45278-cove-manor-rd-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "900",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "21628 Great Mills Rd Unit D, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-d-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2800",
+        "price_type": "fixed",
+        "Beds": 4,
+        "Baths": 2.0,
+        "Address": "23415 S Patuxent Beach Rd, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/Z-huzB3e-k8VVe-l_COCXHBfH4A6xEoRqTjHrJ88VXI/115/23415-s-patuxent-beach-rd-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "$2,200",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3.5,
+        "Address": "43719 Winterberry Wy, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/vSGEG3nSYuHgWBYM0uPeqsOwZmxQtkkrC2-ks1Zmvv8/115/43719-winterberry-wy-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "3200",
+        "price_type": "fixed",
+        "Beds": 4,
+        "Baths": 3.5,
+        "Address": "23259 Windflower Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/fcDmRuRJd2GBVrsv8wyh-fLVRrcAfy28KilkbNsCnCI/115/23259-windflower-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2200",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3,
+        "Address": "23056 Foxglove Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/OVpv0P-Ul7MW0AZhOhd68noel__Zn-CW6qlt7h7r4nQ/115/23056-foxglove-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2350",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 3,
+        "Address": "22789 Bayside Way, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/Max7_pRpojl5yq0Wb-0Otd7Iai79QG6_wLVi9blL1kY/115/22789-bayside-way-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2900",
+        "price_type": "fixed",
+        "Beds": 3,
+        "Baths": 4.0,
+        "Address": "45467 Concord Wy, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/dDhFcLh34tunWgsIUJ2xb7YcjK0_j50SsJi8BTwtWIE/115/45467-concord-wy-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "$1500",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "23244 Chestnut Oak Ct, California, MD 20619",
+        "thumbnail_url": "https://images1.apartments.com/i2/65sEKIqT303WPEjKO2RU7fOZ_Tuh0yzNPPWsEZaGxz4/115/23244-chestnut-oak-ct-california-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2900",
+        "price_type": "fixed",
+        "Beds": 4,
+        "Baths": 3.25,
+        "Address": "22445 Greenview Pkwy, Great Mills, MD 20634",
+        "thumbnail_url": "https://images1.apartments.com/i2/EJGRTZrttMpHqoZ_UzIAwuJlvT1X9bEiwH1dJlFqdSY/115/22445-greenview-pkwy-great-mills-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "900",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "21628 Great Mills Rd Unit E2, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-e2-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "1050",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "21632 Great Mills Rd Unit 2, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/jQpJLdvMQM8c_WMBKNrvWYPFzQs8vzizfp_t6b-k3Yo/115/21632-great-mills-rd-unit-2-lexington-park-md-building-photo.jpg?p=1"
+    },
+    {
+        "Price": "2200",
+        "price_type": "fixed",
+        "Beds": 4,
+        "Baths": 1.5,
+        "Address": "46359 Columbus Dr, Lexington Park, MD 20653",
+        "thumbnail_url": "https://images1.apartments.com/i2/Ln1m0Qp5Y_K4hIjKdguBFtoGp-CkUijvDDSI52tu694/115/46359-columbus-dr-lexington-park-md-building-photo.jpg?p=1"
+    }
+]

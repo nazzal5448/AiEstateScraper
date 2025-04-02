@@ -14,9 +14,10 @@ class Extract:
         - address
     }
     '''
-    def __init__(self,html_pages:list, api_key:str, config:dict):
+    def __init__(self, html_pages:list, api_key:str, config:dict, callback=None):
         self.html_pages = html_pages
         self.config = config
+        self.callback = callback  # Callback function to report progress
         #initialize the model
         self.client = Groq(api_key=api_key)
 
@@ -69,24 +70,40 @@ class Extract:
         properties_data = []
 
         if not self.html_pages:
+            if self.callback:
+                self.callback("status", "No HTML pages to process.")
             return properties_data
 
+        total_pages = len(self.html_pages)
         for idx, page in enumerate(self.html_pages):
-            print(f"Parsing page {idx + 1}...")
+            page_msg = f"Parsing page {idx + 1} of {total_pages}..."
+            print(page_msg)
+            if self.callback:
+                self.callback("status", page_msg)
+            
             tree = HTMLParser(page)
             houses = tree.css(HOUSE_SELECTOR)
+            total_houses = len(houses)
+            
+            if self.callback:
+                self.callback("status", f"Found {total_houses} properties on page {idx + 1}")
 
-            tasks = [
-                self.extract(house, system_prompt=SYSTEM_PROMPT, model=MODEL, response_format=RESPONSE_FORMAT)
-                for house in houses
-            ]
+            for i, house in enumerate(houses):
+                if self.callback:
+                    self.callback("status", f"Processing property {i+1}/{total_houses} on page {idx+1}")
+                
+                result = await self.extract(house, system_prompt=SYSTEM_PROMPT, model=MODEL, response_format=RESPONSE_FORMAT)
+                if result:
+                    properties_data.append(result)
+                    if self.callback:
+                        self.callback("property", result)
+                
+                # Async delay to avoid rate-limiting
+                await asyncio.sleep(1)
 
-            results = await asyncio.gather(*tasks)
-
-            # Filter out None values (failed extractions)
-            properties_data.extend(filter(None, results))
-
-            # Async delay to avoid rate-limiting
+            # Delay between pages to avoid rate-limiting
             await asyncio.sleep(2)
 
+        if self.callback:
+            self.callback("complete", len(properties_data))
         return properties_data

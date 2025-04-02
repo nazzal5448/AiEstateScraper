@@ -23,10 +23,10 @@
             "type": "node",
             "description": "Search button which is clicked after location is enetered in search box."
         },
-        "pagination": {
-            "selector": "#paging > ol li",
-            "type": "[node]",
-            "description": "returns the list of pages available to scrape."
+        "nextButton": {
+            "selector": "a[aria-label='Next Page'] > span.pagingBtn",
+            "type": "node",
+            "description": "returns the next button used to go forward."
         }
     },
     "llmConfig": {

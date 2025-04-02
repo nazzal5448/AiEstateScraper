@@ -1,0 +1,100 @@
+[17:26:09] Starting scrape for california...
+[17:26:11] Starting to render pages for california...
+[17:26:11] Starting browser...
+[17:26:12] Launching browser with headless=True...
+[17:26:13] Found property: Unknown - N/A
+[17:26:14] Processing property 6/27 on page 1
+[17:26:15] Navigating to https://apartments.com...
+[17:26:19] Initialized site navigation
+[17:26:21] Entering location: california
+[17:26:25] Searching for properties in california...
+[17:26:28] Location verified! URL: https://www.apartments.com/california-md/
+[17:26:28] Processing page 1...
+[17:26:29] Found property: Unknown - N/A
+[17:26:29] Scrolling page 1 to load all content...
+[17:26:30] Processing property 7/27 on page 1
+[17:26:32] Capturing HTML from page 1
+[17:26:32] No further pages to scrape. Total pages: 1
+[17:26:32] Successfully scraped 1 pages
+[17:26:34] Rendered 1 pages. Starting extraction...
+[17:26:34] Parsing page 1 of 1...
+[17:26:34] Found 27 properties on page 1
+[17:26:34] Processing property 1/27 on page 1
+[17:26:45] Found property: Unknown - N/A
+[17:26:46] Processing property 8/27 on page 1
+[17:26:58] Found property: Unknown - N/A
+[17:26:59] Processing property 9/27 on page 1
+[17:27:06] Processing property 2/27 on page 1
+[17:27:11] Found property: Unknown - N/A
+[17:27:12] Processing property 10/27 on page 1
+[17:27:13] Found property: Unknown - N/A
+[17:27:14] Processing property 11/27 on page 1
+[17:27:14] Found property: Unknown - N/A
+[17:27:15] Processing property 12/27 on page 1
+[17:27:16] Found property: Unknown - N/A
+[17:27:17] Processing property 3/27 on page 1
+[17:27:22] Found property: Unknown - N/A
+[17:27:23] Processing property 13/27 on page 1
+[17:27:24] Found property: Unknown - N/A
+[17:27:25] Processing property 14/27 on page 1
+[17:27:26] Processing property 4/27 on page 1
+[17:27:36] Found property: Unknown - N/A
+[17:27:37] Processing property 15/27 on page 1
+[17:27:48] Found property: Unknown - N/A
+[17:27:49] Processing property 16/27 on page 1
+[17:27:50] Found property: Unknown - N/A
+[17:27:51] Processing property 5/27 on page 1
+[17:27:52] Found property: Unknown - N/A
+[17:27:53] Processing property 6/27 on page 1
+[17:27:55] Found property: Unknown - N/A
+[17:27:56] Processing property 7/27 on page 1
+[17:28:09] Found property: Unknown - N/A
+[17:28:10] Processing property 17/27 on page 1
+[17:28:13] Found property: Unknown - N/A
+[17:28:14] Processing property 18/27 on page 1
+[17:28:16] Processing property 8/27 on page 1
+[17:28:26] Found property: Unknown - N/A
+[17:28:27] Processing property 9/27 on page 1
+[17:28:34] Scraping stopped by user
+[17:28:39] Found property: Unknown - N/A
+[17:28:39] Found property: Unknown - N/A
+[17:28:40] Processing property 19/27 on page 1
+[17:28:40] Processing property 10/27 on page 1
+[17:28:41] Found property: Unknown - N/A
+[17:28:41] Found property: Unknown - N/A
+[17:28:42] Processing property 20/27 on page 1
+[17:28:42] Processing property 11/27 on page 1
+[17:29:00] Found property: Unknown - N/A
+[17:29:00] Found property: Unknown - N/A
+[17:29:01] Processing property 21/27 on page 1
+[17:29:01] Processing property 12/27 on page 1
+[17:29:25] Found property: Unknown - N/A
+[17:29:25] Found property: Unknown - N/A
+[17:29:26] Processing property 13/27 on page 1
+[17:29:26] Processing property 22/27 on page 1
+[17:29:27] Found property: Unknown - N/A
+[17:29:27] Found property: Unknown - N/A
+[17:29:28] Processing property 14/27 on page 1
+[17:29:28] Processing property 23/27 on page 1
+[17:29:29] Found property: Unknown - N/A
+[17:29:30] Processing property 24/27 on page 1
+[17:29:41] Found property: Unknown - N/A
+[17:29:42] Found property: Unknown - N/A
+[17:29:42] Processing property 25/27 on page 1
+[17:29:43] Processing property 15/27 on page 1
+[17:29:43] Found property: Unknown - N/A
+[17:29:44] Processing property 16/27 on page 1
+[17:29:49] Found property: Unknown - N/A
+[17:29:50] Processing property 17/27 on page 1
+[17:30:01] Found property: Unknown - N/A
+[17:30:02] Processing property 26/27 on page 1
+[17:30:12] Found property: Unknown - N/A
+[17:30:13] Processing property 27/27 on page 1
+[17:30:14] Processing property 18/27 on page 1
+[17:30:23] Found property: Unknown - N/A
+[17:30:25] Found property: Unknown - N/A
+[17:30:26] Saved 27 properties to outputs/outputs.json
+[17:30:26] Processing property 19/27 on page 1
+[17:30:27] Found property: Unknown - N/A
+[17:30:28] Processing property 20/27 on page 1
+[17:30:29] Found property: Unknown - N/A
