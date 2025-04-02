@@ -453,9 +453,29 @@ def check_active_process():
 # Run the active process check
 check_active_process()
 
+# Function to determine if we're running in a cloud environment
+def is_cloud_environment():
+    return os.environ.get("STREAMLIT_CLOUD") is not None or \
+           os.environ.get("IS_CLOUD_ENV") is not None or \
+           "streamlit.app" in os.environ.get("HOSTNAME", "") or \
+           os.path.exists("/.dockerenv")
+
+# Function to load pre-scraped data
+def load_prescraped_data():
+    try:
+        with open("outputs/outputs.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading pre-scraped data: {e}")
+        return []
+
 # Main UI
 st.title("🏠 AI Estate Scraper")
 st.subheader("Scrape property listings from apartments.com")
+
+# Check if running in cloud environment and show warning
+if is_cloud_environment():
+    st.warning("⚠️ Running in cloud environment - live scraping is disabled. Using pre-scraped demo data instead.")
 
 # Input form
 with st.form("scraper_form"):
@@ -469,8 +489,29 @@ with st.form("scraper_form"):
     
     submit_button = st.form_submit_button("Start Scraping", use_container_width=True)
 
-    if submit_button and not is_scraping_active():
-        run_scraper(location, headless)
+    # Handle form submission based on environment
+    if submit_button:
+        if is_cloud_environment():
+            # In cloud environment, use pre-scraped data
+            st.session_state.demo_loaded = True
+            write_status(f"Loading demo data for {location}...")
+            # Set basic state for UI continuity
+            write_properties(load_prescraped_data())
+            write_page_info(1, 1)
+            st.rerun()
+        elif not is_scraping_active():
+            # Only run live scraping in local environment
+            run_scraper(location, headless)
+            st.rerun()
+
+# Add a demo data button outside the form
+if not is_scraping_active() and not st.session_state.get("demo_loaded", False):
+    if st.button("Load Demo Data"):
+        st.session_state.demo_loaded = True
+        write_status("Loading demo data...")
+        # Set basic state for UI continuity
+        write_properties(load_prescraped_data())
+        write_page_info(1, 1)
         st.rerun()
 
 # Check if scraping is active and add a stop button
@@ -680,35 +721,86 @@ with property_container:
 # Auto-refresh while scraping is active
 if is_scraping_active():
     time.sleep(1)  # Small delay
-    st.rerun() 
+    st.rerun()
 
-# Function to determine if we're running in a cloud environment
-def is_cloud_environment():
-    return os.environ.get("STREAMLIT_CLOUD") is not None or \
-           os.environ.get("IS_CLOUD_ENV") is not None or \
-           os.path.exists("/.dockerenv")
-
-# Function to load pre-scraped data
-def load_prescraped_data():
-    try:
-        with open("outputs/outputs.json", "r") as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error loading pre-scraped data: {e}")
-        return []
-
-# Now in the main section where we check if we should start scraping
-if submit_button and not is_scraping_active():
-    if is_cloud_environment() or not location:
-        # In cloud environment, use pre-scraped data
-        demo_location = location if location else "Sample Location"
-        st.session_state.location = demo_location
-        st.session_state.scraping_active = False
-        st.session_state.scraping_status = "Using pre-scraped demo data"
-        st.session_state.page_info = {"current_page": 1, "total_pages": 1}
-        demo_properties = load_prescraped_data()
-        display_properties(demo_properties)
-    else:
-        # Only run live scraping in local environment
-        run_scraper(location, headless)
-        st.experimental_rerun() 
+# Function to display properties from a list
+def display_properties(properties_list):
+    """Display a list of properties in the UI"""
+    if not properties_list:
+        st.info("No properties found in the dataset.")
+        return
+    
+    # Create a grid layout for the properties
+    cols = st.columns(3)
+    for i, prop in enumerate(properties_list):
+        with cols[i % 3]:
+            # Extract all property data first for debugging
+            all_fields_debug = ""
+            if DEBUG_MODE:
+                all_fields_debug = "<div style='display:none'>"
+                for key, value in prop.items():
+                    all_fields_debug += f"{key}: {value}, "
+                all_fields_debug += "</div>"
+            
+            # Get property data with proper fallbacks
+            address = prop.get('address', '') or prop.get('Address', '')
+            if not address or address == 'Property' or address == 'N/A':
+                address = "Property Details"
+                
+            # Handle price and price_type properly
+            price = prop.get('price', '') or prop.get('Price', '')
+            if not price or price == 'N/A':
+                price = "Price not available"
+            
+            price_type = prop.get('price_type', '') or prop.get('price_type', '')
+            if price_type in ['N/A', 'range', None, '']:
+                price_type = ''
+                
+            # Check if price contains "range" and fix it
+            if 'range' in str(price).lower():
+                price = price.replace('range', '').strip()
+            
+            # Extract beds and baths more carefully
+            beds = prop.get('beds', '') or prop.get('Beds', '')
+            if beds == 'N/A':
+                beds = 'N/A'  # Keep N/A for display
+                
+            baths = prop.get('baths', '') or prop.get('Baths', '')
+            if baths == 'N/A':
+                baths = 'N/A'  # Keep N/A for display
+            
+            # Start building the property card
+            property_html = f"""
+            <div class="property-card">
+                {all_fields_debug}
+                <div class="property-address">{address}</div>
+            """
+            
+            # Only add price if it's not "Price not available"
+            if price != "Price not available":
+                property_html += f'<div class="property-price">{price} <span style="font-size:0.8em;color:#7f8c8d">{price_type}</span></div>'
+            
+            # Show beds/baths section with proper formatting
+            property_html += '<div class="property-details">'
+            if beds and beds != 'N/A':
+                property_html += f'<div class="property-detail-item">{beds} beds</div>'
+            if baths is None or baths == 'N/A':
+                property_html += '<div class="property-detail-item">Not specified baths</div>'
+            elif baths:
+                property_html += f'<div class="property-detail-item">{baths} baths</div>'
+            property_html += '</div>'
+            
+            # Add any other properties, excluding problematic ones
+            other_props = []
+            for key, value in prop.items():
+                key_lower = key.lower()
+                if key_lower not in ['price', 'price_type', 'beds', 'baths', 'address', 'range'] and value and value != 'N/A':
+                    other_props.append(f'<div class="property-attribute"><b>{key.title()}:</b> {value}</div>')
+            
+            if other_props:
+                property_html += '<div class="property-other">'
+                property_html += ''.join(other_props)
+                property_html += '</div>'
+            
+            property_html += "</div>"
+            st.markdown(property_html, unsafe_allow_html=True) 

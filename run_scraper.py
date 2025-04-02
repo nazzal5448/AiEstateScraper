@@ -1,4 +1,3 @@
-
 import asyncio
 import os
 import json
@@ -16,6 +15,13 @@ location = sys.argv[1]
 headless_str = sys.argv[2]
 headless = (headless_str.lower() == 'true')
 
+# Function to check if running in cloud environment
+def is_cloud_environment():
+    return os.environ.get("STREAMLIT_CLOUD") is not None or \
+           os.environ.get("IS_CLOUD_ENV") is not None or \
+           "streamlit.app" in os.environ.get("HOSTNAME", "") or \
+           os.path.exists("/.dockerenv")
+
 # Status file paths
 STATUS_FILE = "status/current_status.txt"
 PROPERTIES_FILE = "status/properties.json"
@@ -31,6 +37,15 @@ def ensure_inactive():
             print("Marked as inactive on exit")
         except:
             pass
+
+# Function to load pre-scraped demo data
+def load_demo_data():
+    try:
+        with open("outputs/outputs.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading demo data: {e}")
+        return []
 
 # Status callback
 def status_callback(update_type, data):
@@ -87,6 +102,21 @@ def status_callback(update_type, data):
 
 async def main():
     try:
+        # Check if running in cloud environment
+        if is_cloud_environment():
+            print("Cloud environment detected - using demo data instead of scraping")
+            with open(STATUS_FILE, "w") as f:
+                f.write(f"Using pre-scraped demo data instead of live scraping")
+                
+            # Load demo data
+            demo_properties = load_demo_data()
+            for prop in demo_properties:
+                status_callback("property", prop)
+                await asyncio.sleep(0.1)  # Small delay between properties
+                
+            status_callback("complete", len(demo_properties))
+            return
+            
         print(f"Starting scraping process for {location} with headless={headless}")
         await render_and_extract(
             location=location,
