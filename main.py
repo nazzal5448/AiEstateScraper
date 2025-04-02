@@ -31,7 +31,6 @@ async def render_and_extract(location:str,
     '''
     dotenv.load_dotenv(".env")
     API_KEY = os.environ.get("GROQ_API_KEY")
-await install_browsers()
     config = get_config()
     await install_browsers()
     
