@@ -4,3 +4,4 @@ selectolax==0.3.17
 groq==0.4.1
 python-dotenv==1.0.0
 asyncio==3.4.3
+pytest-playwright
