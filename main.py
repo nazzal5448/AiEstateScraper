@@ -10,7 +10,13 @@ from playwright.async_api import async_playwright
 
 # Install Playwright browsers on startup
 async def install_browsers():
-    subprocess.run(["playwright", "install", "--with-deps"], check=True)
+    """Install required browsers for Playwright"""
+    try:
+        # Use a less privileged installation approach for Streamlit Cloud
+        subprocess.run(["playwright", "install", "chromium"], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Browser installation failed with error: {str(e)}")
+        print("Continuing with pre-installed browsers...")
 
 
 async def render_and_extract(location:str,
@@ -32,7 +38,18 @@ async def render_and_extract(location:str,
     dotenv.load_dotenv(".env")
     API_KEY = os.environ.get("GROQ_API_KEY")
     config = get_config()
-    await install_browsers()
+    
+    # For cloud deployments, always force headless mode
+    if os.environ.get("STREAMLIT_CLOUD") or os.environ.get("IS_CLOUD_ENV"):
+        headless_browser = True
+        print("Cloud environment detected, forcing headless mode")
+    
+    try:
+        # Try to install browsers, but don't fail if it doesn't work
+        await install_browsers()
+    except Exception as e:
+        print(f"Browser installation skipped: {str(e)}")
+        print("Will try to use pre-installed browsers...")
     
     if callback:
         callback("status", f"Starting to render pages for {location}...")

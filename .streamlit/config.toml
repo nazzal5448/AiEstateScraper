@@ -1,0 +1,19 @@
+[global]
+developmentMode = false
+
+[runner]
+# Timeout for browser operations (milliseconds)
+timeout = 200000
+
+[browser]
+gatherUsageStats = false
+
+[server]
+enableStaticServing = true
+
+[theme]
+primaryColor = "#e67e22"
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#2c3e50"
+font = "sans serif" 
