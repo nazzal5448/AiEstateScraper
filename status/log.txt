@@ -1,115 +1,344 @@
-[17:26:09] Starting scrape for california...
-[17:26:11] Starting to render pages for california...
-[17:26:11] Starting browser...
-[17:26:12] Launching browser with headless=True...
-[17:26:13] Found property: Unknown - N/A
-[17:26:14] Processing property 6/27 on page 1
-[17:26:15] Navigating to https://apartments.com...
-[17:26:19] Initialized site navigation
-[17:26:21] Entering location: california
-[17:26:25] Searching for properties in california...
-[17:26:28] Location verified! URL: https://www.apartments.com/california-md/
-[17:26:28] Processing page 1...
-[17:26:29] Found property: Unknown - N/A
-[17:26:29] Scrolling page 1 to load all content...
-[17:26:30] Processing property 7/27 on page 1
-[17:26:32] Capturing HTML from page 1
-[17:26:32] No further pages to scrape. Total pages: 1
-[17:26:32] Successfully scraped 1 pages
-[17:26:34] Rendered 1 pages. Starting extraction...
-[17:26:34] Parsing page 1 of 1...
-[17:26:34] Found 27 properties on page 1
-[17:26:34] Processing property 1/27 on page 1
-[17:26:45] Found property: Unknown - N/A
-[17:26:46] Processing property 8/27 on page 1
-[17:26:58] Found property: Unknown - N/A
-[17:26:59] Processing property 9/27 on page 1
-[17:27:06] Processing property 2/27 on page 1
-[17:27:11] Found property: Unknown - N/A
-[17:27:12] Processing property 10/27 on page 1
-[17:27:13] Found property: Unknown - N/A
-[17:27:14] Processing property 11/27 on page 1
-[17:27:14] Found property: Unknown - N/A
-[17:27:15] Processing property 12/27 on page 1
-[17:27:16] Found property: Unknown - N/A
-[17:27:17] Processing property 3/27 on page 1
-[17:27:22] Found property: Unknown - N/A
-[17:27:23] Processing property 13/27 on page 1
-[17:27:24] Found property: Unknown - N/A
-[17:27:25] Processing property 14/27 on page 1
-[17:27:26] Processing property 4/27 on page 1
-[17:27:36] Found property: Unknown - N/A
-[17:27:37] Processing property 15/27 on page 1
-[17:27:48] Found property: Unknown - N/A
-[17:27:49] Processing property 16/27 on page 1
-[17:27:50] Found property: Unknown - N/A
-[17:27:51] Processing property 5/27 on page 1
-[17:27:52] Found property: Unknown - N/A
-[17:27:53] Processing property 6/27 on page 1
-[17:27:55] Found property: Unknown - N/A
-[17:27:56] Processing property 7/27 on page 1
-[17:28:09] Found property: Unknown - N/A
-[17:28:10] Processing property 17/27 on page 1
-[17:28:13] Found property: Unknown - N/A
-[17:28:14] Processing property 18/27 on page 1
-[17:28:16] Processing property 8/27 on page 1
-[17:28:26] Found property: Unknown - N/A
-[17:28:27] Processing property 9/27 on page 1
-[17:28:34] Scraping stopped by user
-[17:28:39] Found property: Unknown - N/A
-[17:28:39] Found property: Unknown - N/A
-[17:28:40] Processing property 19/27 on page 1
-[17:28:40] Processing property 10/27 on page 1
-[17:28:41] Found property: Unknown - N/A
-[17:28:41] Found property: Unknown - N/A
-[17:28:42] Processing property 20/27 on page 1
-[17:28:42] Processing property 11/27 on page 1
-[17:29:00] Found property: Unknown - N/A
-[17:29:00] Found property: Unknown - N/A
-[17:29:01] Processing property 21/27 on page 1
-[17:29:01] Processing property 12/27 on page 1
-[17:29:25] Found property: Unknown - N/A
-[17:29:25] Found property: Unknown - N/A
-[17:29:26] Processing property 13/27 on page 1
-[17:29:26] Processing property 22/27 on page 1
-[17:29:27] Found property: Unknown - N/A
-[17:29:27] Found property: Unknown - N/A
-[17:29:28] Processing property 14/27 on page 1
-[17:29:28] Processing property 23/27 on page 1
-[17:29:29] Found property: Unknown - N/A
-[17:29:30] Processing property 24/27 on page 1
-[17:29:41] Found property: Unknown - N/A
-[17:29:42] Found property: Unknown - N/A
-[17:29:42] Processing property 25/27 on page 1
-[17:29:43] Processing property 15/27 on page 1
-[17:29:43] Found property: Unknown - N/A
-[17:29:44] Processing property 16/27 on page 1
-[17:29:49] Found property: Unknown - N/A
-[17:29:50] Processing property 17/27 on page 1
-[17:30:01] Found property: Unknown - N/A
-[17:30:02] Processing property 26/27 on page 1
-[17:30:12] Found property: Unknown - N/A
-[17:30:13] Processing property 27/27 on page 1
-[17:30:14] Processing property 18/27 on page 1
-[17:30:23] Found property: Unknown - N/A
-[17:30:25] Found property: Unknown - N/A
-[17:30:26] Saved 27 properties to outputs/outputs.json
-[17:30:26] Processing property 19/27 on page 1
-[17:30:27] Found property: Unknown - N/A
-[17:30:28] Processing property 20/27 on page 1
-[17:30:29] Found property: Unknown - N/A
-[17:30:30] Processing property 21/27 on page 1
-[17:30:31] Found property: Unknown - N/A
-[17:30:32] Processing property 22/27 on page 1
-[17:30:45] Found property: Unknown - N/A
-[17:30:46] Processing property 23/27 on page 1
-[17:30:47] Found property: Unknown - N/A
-[17:30:48] Processing property 24/27 on page 1
-[17:31:00] Found property: Unknown - N/A
-[17:31:01] Processing property 25/27 on page 1
-[17:31:11] Found property: Unknown - N/A
-[17:31:12] Processing property 26/27 on page 1
-[17:31:23] Found property: Unknown - N/A
-[17:31:24] Processing property 27/27 on page 1
-[17:31:24] Found property: Unknown - N/A
-[17:31:27] Saved 23 properties to outputs/outputs.json
+[17:43:59] Starting scrape for New York, NY...
+[17:44:00] Starting to render pages for New York, NY...
+[17:44:00] Starting browser...
+[17:44:01] Launching browser with headless=True...
+[17:44:03] Navigating to https://apartments.com...
+[17:44:10] Initialized site navigation
+[17:44:12] Entering location: New York, NY
+[17:44:17] Searching for properties in New York, NY...
+[17:44:20] Location verified! URL: https://www.apartments.com/new-york-ny/
+[17:44:20] Processing page 1...
+[17:44:21] Scrolling page 1 to load all content...
+[17:44:24] Capturing HTML from page 1
+[17:44:25] Moving to page 2...
+[17:44:27] Processing page 2...
+[17:44:27] Scrolling page 2 to load all content...
+[17:44:30] Capturing HTML from page 2
+[17:44:31] Moving to page 3...
+[17:44:33] Processing page 3...
+[17:44:33] Scrolling page 3 to load all content...
+[17:44:36] Capturing HTML from page 3
+[17:44:37] Moving to page 4...
+[17:44:37] Processing page 4...
+[17:44:37] Scrolling page 4 to load all content...
+[17:44:40] Capturing HTML from page 4
+[17:44:41] Moving to page 5...
+[17:44:41] Processing page 5...
+[17:44:41] Scrolling page 5 to load all content...
+[17:44:44] Capturing HTML from page 5
+[17:44:45] Moving to page 6...
+[17:44:45] Processing page 6...
+[17:44:45] Scrolling page 6 to load all content...
+[17:44:48] Capturing HTML from page 6
+[17:44:49] Moving to page 7...
+[17:44:51] Processing page 7...
+[17:44:52] Scrolling page 7 to load all content...
+[17:44:55] Capturing HTML from page 7
+[17:44:55] Moving to page 8...
+[17:45:00] Processing page 8...
+[17:45:00] Scrolling page 8 to load all content...
+[17:45:03] Capturing HTML from page 8
+[17:45:03] Moving to page 9...
+[17:45:04] Processing page 9...
+[17:45:04] Scrolling page 9 to load all content...
+[17:45:07] Capturing HTML from page 9
+[17:45:07] Moving to page 10...
+[17:45:09] Processing page 10...
+[17:45:09] Scrolling page 10 to load all content...
+[17:45:12] Capturing HTML from page 10
+[17:45:12] Moving to page 11...
+[17:45:13] Processing page 11...
+[17:45:13] Scrolling page 11 to load all content...
+[17:45:16] Capturing HTML from page 11
+[17:45:16] Moving to page 12...
+[17:45:17] Processing page 12...
+[17:45:17] Scrolling page 12 to load all content...
+[17:45:20] Capturing HTML from page 12
+[17:45:20] Moving to page 13...
+[17:45:21] Processing page 13...
+[17:45:21] Scrolling page 13 to load all content...
+[17:45:24] Capturing HTML from page 13
+[17:45:24] Moving to page 14...
+[17:45:25] Processing page 14...
+[17:45:25] Scrolling page 14 to load all content...
+[17:45:28] Capturing HTML from page 14
+[17:45:28] Moving to page 15...
+[17:45:29] Processing page 15...
+[17:45:29] Scrolling page 15 to load all content...
+[17:45:32] Capturing HTML from page 15
+[17:45:33] Moving to page 16...
+[17:45:33] Processing page 16...
+[17:45:33] Scrolling page 16 to load all content...
+[17:45:36] Capturing HTML from page 16
+[17:45:36] Moving to page 17...
+[17:45:37] Processing page 17...
+[17:45:37] Scrolling page 17 to load all content...
+[17:45:40] Capturing HTML from page 17
+[17:45:41] Moving to page 18...
+[17:45:42] Processing page 18...
+[17:45:42] Scrolling page 18 to load all content...
+[17:45:45] Capturing HTML from page 18
+[17:45:45] No further pages to scrape. Total pages: 18
+[17:45:45] Successfully scraped 18 pages
+[17:45:46] Rendered 18 pages. Starting extraction...
+[17:45:46] Parsing page 1 of 18...
+[17:45:46] Found 40 properties on page 1
+[17:45:46] Processing property 1/40 on page 1
+[17:45:48] Found property: Unknown - N/A
+[17:45:49] Processing property 2/40 on page 1
+[17:45:50] Found property: Unknown - N/A
+[17:45:51] Processing property 3/40 on page 1
+[17:45:52] Found property: Unknown - N/A
+[17:45:53] Processing property 4/40 on page 1
+[17:45:53] Found property: Unknown - N/A
+[17:45:54] Processing property 5/40 on page 1
+[17:45:55] Found property: Unknown - N/A
+[17:45:56] Processing property 6/40 on page 1
+[17:45:57] Found property: Unknown - N/A
+[17:45:58] Processing property 7/40 on page 1
+[17:45:59] Found property: Unknown - N/A
+[17:46:00] Processing property 8/40 on page 1
+[17:46:00] Found property: Unknown - N/A
+[17:46:01] Processing property 9/40 on page 1
+[17:46:02] Found property: Unknown - N/A
+[17:46:03] Processing property 10/40 on page 1
+[17:46:04] Found property: Unknown - N/A
+[17:46:05] Processing property 11/40 on page 1
+[17:46:06] Found property: Unknown - N/A
+[17:46:07] Processing property 12/40 on page 1
+[17:46:08] Found property: Unknown - N/A
+[17:46:09] Processing property 13/40 on page 1
+[17:46:10] Found property: Unknown - N/A
+[17:46:11] Processing property 14/40 on page 1
+[17:46:11] Found property: Unknown - N/A
+[17:46:12] Processing property 15/40 on page 1
+[17:46:13] Found property: Unknown - N/A
+[17:46:14] Processing property 16/40 on page 1
+[17:46:18] Found property: Unknown - N/A
+[17:46:19] Processing property 17/40 on page 1
+[17:46:23] Found property: Unknown - N/A
+[17:46:24] Processing property 18/40 on page 1
+[17:46:27] Found property: Unknown - N/A
+[17:46:28] Processing property 19/40 on page 1
+[17:46:32] Found property: Unknown - N/A
+[17:46:33] Processing property 20/40 on page 1
+[17:46:37] Found property: Unknown - N/A
+[17:46:38] Processing property 21/40 on page 1
+[17:46:42] Found property: Unknown - N/A
+[17:46:43] Processing property 22/40 on page 1
+[17:46:48] Found property: Unknown - N/A
+[17:46:49] Processing property 23/40 on page 1
+[17:46:53] Found property: Unknown - N/A
+[17:46:54] Processing property 24/40 on page 1
+[17:46:58] Found property: Unknown - N/A
+[17:46:59] Processing property 25/40 on page 1
+[17:47:03] Found property: Unknown - N/A
+[17:47:04] Processing property 26/40 on page 1
+[17:47:08] Found property: Unknown - N/A
+[17:47:09] Processing property 27/40 on page 1
+[17:47:12] Found property: Unknown - N/A
+[17:47:13] Processing property 28/40 on page 1
+[17:47:17] Found property: Unknown - N/A
+[17:47:18] Processing property 29/40 on page 1
+[17:47:22] Found property: Unknown - N/A
+[17:47:23] Processing property 30/40 on page 1
+[17:47:28] Found property: Unknown - N/A
+[17:47:29] Processing property 31/40 on page 1
+[17:47:33] Found property: Unknown - N/A
+[17:47:34] Processing property 32/40 on page 1
+[17:47:38] Found property: Unknown - N/A
+[17:47:39] Processing property 33/40 on page 1
+[17:47:42] Found property: Unknown - N/A
+[17:47:43] Processing property 34/40 on page 1
+[17:47:47] Found property: Unknown - N/A
+[17:47:48] Processing property 35/40 on page 1
+[17:47:53] Found property: Unknown - N/A
+[17:47:54] Processing property 36/40 on page 1
+[17:47:58] Found property: Unknown - N/A
+[17:47:59] Processing property 37/40 on page 1
+[17:48:03] Found property: Unknown - N/A
+[17:48:04] Processing property 38/40 on page 1
+[17:48:08] Found property: Unknown - N/A
+[17:48:09] Processing property 39/40 on page 1
+[17:48:13] Found property: Unknown - N/A
+[17:48:14] Processing property 40/40 on page 1
+[17:48:17] Found property: Unknown - N/A
+[17:48:20] Parsing page 2 of 18...
+[17:48:21] Found 40 properties on page 2
+[17:48:21] Processing property 1/40 on page 2
+[17:48:24] Found property: Unknown - N/A
+[17:48:25] Processing property 2/40 on page 2
+[17:48:28] Found property: Unknown - N/A
+[17:48:29] Processing property 3/40 on page 2
+[17:48:33] Found property: Unknown - N/A
+[17:48:34] Processing property 4/40 on page 2
+[17:48:38] Found property: Unknown - N/A
+[17:48:39] Processing property 5/40 on page 2
+[17:48:43] Found property: Unknown - N/A
+[17:48:44] Processing property 6/40 on page 2
+[17:48:48] Found property: Unknown - N/A
+[17:48:49] Processing property 7/40 on page 2
+[17:48:52] Found property: Unknown - N/A
+[17:48:53] Processing property 8/40 on page 2
+[17:48:57] Found property: Unknown - N/A
+[17:48:58] Processing property 9/40 on page 2
+[17:49:01] Found property: Unknown - N/A
+[17:49:02] Processing property 10/40 on page 2
+[17:49:07] Found property: Unknown - N/A
+[17:49:08] Processing property 11/40 on page 2
+[17:49:11] Found property: Unknown - N/A
+[17:49:12] Processing property 12/40 on page 2
+[17:49:12] Found property: Unknown - N/A
+[17:49:13] Processing property 13/40 on page 2
+[17:49:14] Found property: Unknown - N/A
+[17:49:15] Processing property 14/40 on page 2
+[17:49:15] Found property: Unknown - N/A
+[17:49:16] Processing property 15/40 on page 2
+[17:49:17] Found property: Unknown - N/A
+[17:49:18] Processing property 16/40 on page 2
+[17:49:18] Found property: Unknown - N/A
+[17:49:19] Processing property 17/40 on page 2
+[17:49:20] Found property: Unknown - N/A
+[17:49:21] Processing property 18/40 on page 2
+[17:49:21] Found property: Unknown - N/A
+[17:49:22] Processing property 19/40 on page 2
+[17:49:23] Found property: Unknown - N/A
+[17:49:24] Processing property 20/40 on page 2
+[17:49:24] Found property: Unknown - N/A
+[17:49:25] Processing property 21/40 on page 2
+[17:49:26] Found property: Unknown - N/A
+[17:49:27] Processing property 22/40 on page 2
+[17:49:27] Found property: Unknown - N/A
+[17:49:28] Processing property 23/40 on page 2
+[17:49:29] Found property: Unknown - N/A
+[17:49:30] Processing property 24/40 on page 2
+[17:49:31] Found property: Unknown - N/A
+[17:49:32] Processing property 25/40 on page 2
+[17:49:33] Found property: Unknown - N/A
+[17:49:34] Processing property 26/40 on page 2
+[17:49:35] Found property: Unknown - N/A
+[17:49:36] Processing property 27/40 on page 2
+[17:49:36] Found property: Unknown - N/A
+[17:49:37] Processing property 28/40 on page 2
+[17:49:39] Found property: Unknown - N/A
+[17:49:40] Processing property 29/40 on page 2
+[17:49:43] Found property: Unknown - N/A
+[17:49:44] Processing property 30/40 on page 2
+[17:49:48] Found property: Unknown - N/A
+[17:49:49] Processing property 31/40 on page 2
+[17:49:52] Found property: Unknown - N/A
+[17:49:53] Processing property 32/40 on page 2
+[17:49:58] Found property: Unknown - N/A
+[17:49:59] Processing property 33/40 on page 2
+[17:50:03] Found property: Unknown - N/A
+[17:50:04] Processing property 34/40 on page 2
+[17:50:07] Found property: Unknown - N/A
+[17:50:08] Processing property 35/40 on page 2
+[17:50:12] Found property: Unknown - N/A
+[17:50:13] Processing property 36/40 on page 2
+[17:50:16] Found property: Unknown - N/A
+[17:50:17] Processing property 37/40 on page 2
+[17:50:21] Found property: Unknown - N/A
+[17:50:22] Processing property 38/40 on page 2
+[17:50:26] Found property: Unknown - N/A
+[17:50:27] Processing property 39/40 on page 2
+[17:50:31] Found property: Unknown - N/A
+[17:50:32] Processing property 40/40 on page 2
+[17:50:36] Found property: Unknown - N/A
+[17:50:39] Parsing page 3 of 18...
+[17:50:39] Found 40 properties on page 3
+[17:50:39] Processing property 1/40 on page 3
+[17:50:40] Found property: Unknown - N/A
+[17:50:41] Processing property 2/40 on page 3
+[17:50:44] Found property: Unknown - N/A
+[17:50:45] Processing property 3/40 on page 3
+[17:50:49] Found property: Unknown - N/A
+[17:50:50] Processing property 4/40 on page 3
+[17:50:54] Found property: Unknown - N/A
+[17:50:55] Processing property 5/40 on page 3
+[17:50:58] Found property: Unknown - N/A
+[17:50:59] Processing property 6/40 on page 3
+[17:51:02] Found property: Unknown - N/A
+[17:51:03] Processing property 7/40 on page 3
+[17:51:07] Found property: Unknown - N/A
+[17:51:08] Processing property 8/40 on page 3
+[17:51:13] Found property: Unknown - N/A
+[17:51:14] Processing property 9/40 on page 3
+[17:51:17] Found property: Unknown - N/A
+[17:51:18] Processing property 10/40 on page 3
+[17:51:22] Found property: Unknown - N/A
+[17:51:23] Processing property 11/40 on page 3
+[17:51:27] Found property: Unknown - N/A
+[17:51:28] Processing property 12/40 on page 3
+[17:51:32] Found property: Unknown - N/A
+[17:51:33] Processing property 13/40 on page 3
+[17:51:37] Found property: Unknown - N/A
+[17:51:38] Processing property 14/40 on page 3
+[17:51:42] Found property: Unknown - N/A
+[17:51:43] Processing property 15/40 on page 3
+[17:51:46] Found property: Unknown - N/A
+[17:51:47] Processing property 16/40 on page 3
+[17:51:51] Found property: Unknown - N/A
+[17:51:52] Processing property 17/40 on page 3
+[17:51:55] Found property: Unknown - N/A
+[17:51:56] Processing property 18/40 on page 3
+[17:52:01] Found property: Unknown - N/A
+[17:52:02] Processing property 19/40 on page 3
+[17:52:05] Found property: Unknown - N/A
+[17:52:06] Processing property 20/40 on page 3
+[17:52:11] Found property: Unknown - N/A
+[17:52:12] Processing property 21/40 on page 3
+[17:52:15] Found property: Unknown - N/A
+[17:52:16] Processing property 22/40 on page 3
+[17:52:20] Found property: Unknown - N/A
+[17:52:21] Processing property 23/40 on page 3
+[17:52:24] Found property: Unknown - N/A
+[17:52:25] Processing property 24/40 on page 3
+[17:52:29] Found property: Unknown - N/A
+[17:52:30] Processing property 25/40 on page 3
+[17:52:35] Found property: Unknown - N/A
+[17:52:36] Processing property 26/40 on page 3
+[17:52:40] Found property: Unknown - N/A
+[17:52:41] Processing property 27/40 on page 3
+[17:52:44] Found property: Unknown - N/A
+[17:52:45] Processing property 28/40 on page 3
+[17:52:50] Found property: Unknown - N/A
+[17:52:51] Processing property 29/40 on page 3
+[17:52:55] Found property: Unknown - N/A
+[17:52:56] Processing property 30/40 on page 3
+[17:52:59] Found property: Unknown - N/A
+[17:53:00] Processing property 31/40 on page 3
+[17:53:04] Found property: Unknown - N/A
+[17:53:05] Processing property 32/40 on page 3
+[17:53:10] Found property: Unknown - N/A
+[17:53:11] Processing property 33/40 on page 3
+[17:53:14] Found property: Unknown - N/A
+[17:53:15] Processing property 34/40 on page 3
+[17:53:19] Found property: Unknown - N/A
+[17:53:20] Processing property 35/40 on page 3
+[17:53:25] Found property: Unknown - N/A
+[17:53:26] Processing property 36/40 on page 3
+[17:53:29] Found property: Unknown - N/A
+[17:53:30] Processing property 37/40 on page 3
+[17:53:34] Found property: Unknown - N/A
+[17:53:35] Processing property 38/40 on page 3
+[17:53:39] Found property: Unknown - N/A
+[17:53:40] Processing property 39/40 on page 3
+[17:53:44] Found property: Unknown - N/A
+[17:53:45] Processing property 40/40 on page 3
+[17:53:49] Found property: Unknown - N/A
+[17:53:52] Parsing page 4 of 18...
+[17:53:52] Found 40 properties on page 4
+[17:53:52] Processing property 1/40 on page 4
+[17:53:53] Found property: Unknown - N/A
+[17:53:54] Processing property 2/40 on page 4
+[17:54:00] Found property: Unknown - N/A
+[17:54:01] Processing property 3/40 on page 4
+[17:54:04] Found property: Unknown - N/A
+[17:54:05] Processing property 4/40 on page 4
+[17:54:09] Found property: Unknown - N/A
+[17:54:10] Processing property 5/40 on page 4
+[17:54:14] Found property: Unknown - N/A
+[17:54:15] Processing property 6/40 on page 4
+[17:54:18] Found property: Unknown - N/A
+[17:54:19] Processing property 7/40 on page 4

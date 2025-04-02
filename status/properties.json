@@ -1,370 +1,880 @@
 [
     {
-        "Price": "2175-2375",
+        "Price": "2761-6329",
         "price_type": "range",
         "Beds": 2,
         "Baths": null,
-        "Address": "45660 Jillian Ct, Great Mills, MD 20634",
-        "thumbnail_url": "https://images1.apartments.com/i2/nBRCqgcDoeWFLjzgGlxP69_7ytqtD0UOp4CkdwFb5MQ/118/villas-at-greenview-west-great-mills-md-building-photo.jpg?p=1"
+        "Address": "Halletts Pt, Astoria, NY 11102"
     },
     {
-        "Price": 1200,
-        "price_type": "fixed",
+        "Price": "2200-4750",
+        "price_type": "range",
         "Beds": 2,
         "Baths": null,
-        "Address": "45970 Foxchase Dr, Great Mills, MD 20634",
-        "thumbnail_url": "https://images1.apartments.com/i2/P6ahfgoVFFfUfzK8MVp1Kh3AGWDi8tY00swd2_VcsNQ/118/admirals-landing-great-mills-md-building-photo.jpg?p=1"
+        "Address": "3745 Riverdale Ave, The Bronx, NY 10463"
     },
     {
-        "Price": "1035-1750",
+        "Price": "2795-5750",
         "price_type": "range",
-        "Beds": 3,
+        "Beds": 2,
         "Baths": null,
-        "Address": "46533 Valley Ct, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/42vxH_7QJfx697meKsPbGUuyWWJQ6uBM3k_ccMu-Epw/118/spring-valley-apartments-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "35R Bay St, Staten Island, NY 10301"
     },
     {
-        "Price": "1142-1500",
+        "Price": "1750-2300",
         "price_type": "range",
         "Beds": 1,
         "Baths": null,
-        "Address": "21691 Eric Rd, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/4YyKZj9C2LT8HdmEWQXf7Y4iDYsXExN-ckbnzhN8fRI/115/patuxent-crossing-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "5959 Broadway, Bronx, NY 10463"
     },
     {
-        "Price": "2900",
-        "price_type": "fixed",
+        "Price": "1700-2650",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "1680 Pelham Pkwy S, Bronx, NY 10461"
+    },
+    {
+        "Price": "3835-6575",
+        "price_type": "range",
         "Beds": 3,
-        "Baths": 4.0,
-        "Address": "45318 Fog Horn Wy, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/sK_Mf1AZb2szox-Bqj53F-SyBNb8sHYRvyxIVimU4Cs/115/45318-fog-horn-wy-california-md-building-photo.jpg?p=1"
+        "Baths": null,
+        "Address": "2701 Jackson Ave, Long Island City, NY 11101"
     },
     {
-        "Price": "$2800",
-        "price_type": "fixed",
+        "Price": "4692-6219",
+        "price_type": "range",
+        "Beds": 5,
+        "Baths": null,
+        "Address": "120 W 21st St, New York, NY 10011"
+    },
+    {
+        "Price": "$3480-$8103",
+        "price_type": "range",
         "Beds": 3,
-        "Baths": 3.5,
-        "Address": "21298 Bethmill Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/oVuTQH5WKUI5wWI0FRaCVogpVZlMVwVgLZB9YNGn1oU/115/21298-bethmill-way-california-md-building-photo.jpg?p=1"
+        "Baths": null,
+        "Address": "401 E 34th St, New York, NY 10016"
     },
     {
-        "Price": "1725",
-        "price_type": "fixed",
-        "Beds": 1,
-        "Baths": 1.0,
-        "Address": "22572 Dunleigh Dr Unit B, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/ip3r8upcJNmWl21X1qpcTxYiYYg_YMfSbs4B67Mci9Q/115/22572-dunleigh-dr-unit-b-lexington-park-md-building-photo.jpg?p=1"
+        "Price": "3278-5698",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "10 Hanover Square, 110-124 Pearl St, New York, NY 10005"
     },
     {
-        "Price": "$1,545 - $2,025",
+        "Price": "3875-6905",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "95 Wall St, New York, NY 10005"
+    },
+    {
+        "Price": "$1,650 - $7,500",
+        "price_type": "range",
+        "Beds": 5,
+        "Baths": null,
+        "Address": "1660 Madison Ave, New York, NY 10029"
+    },
+    {
+        "Price": "1860-2175",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "212 E 125th St, New York, NY 10035"
+    },
+    {
+        "Price": "3975-8750",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "980 6th Ave, New York, NY 10018"
+    },
+    {
+        "Price": "$1,350 - $3,260",
+        "price_type": "range",
+        "Beds": 0,
+        "Baths": null,
+        "Address": "97 Columbia Hts, Brooklyn, NY 11201"
+    },
+    {
+        "Price": "$3,385 - $8,932",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "20 Rockwell Pl, Brooklyn, NY 11201"
+    },
+    {
+        "Price": "3815-7578",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "21 India St, Brooklyn, NY 11222"
+    },
+    {
+        "Price": "2600-3550",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "153-30 89th Ave, Jamaica, NY 11432"
+    },
+    {
+        "Price": "5084-28995",
+        "price_type": "range",
+        "Beds": "4",
+        "Baths": null,
+        "Address": "400 W 61st St, New York, NY 10023"
+    },
+    {
+        "Price": "3975 - 11695",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "Ny Yorkshire Towers, 305-315 E 86th St, New York, NY 10028"
+    },
+    {
+        "Price": "2800-3300",
         "price_type": "range",
         "Beds": 1,
         "Baths": null,
-        "Address": "23314 Surrey Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/mymxPoPjBKeCgNI-ZLS-6Mbu0RBTBrG3ebahz-vH424/118/the-apartments-of-wildewood-california-md-interior-photo.jpg?p=1"
+        "Address": "4334 53rd St, Woodside, NY 11377"
     },
     {
-        "Price": "2150",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 2.5,
-        "Address": "45264 Woodstown Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/8k9t2PGy31o8Hum8yvmjpV0YNPuP6l20MPSm7ZWslGc/115/45264-woodstown-way-california-md-building-photo.jpg?p=1"
+        "Price": "3475-6688",
+        "price_type": "range",
+        "Beds": 1.5,
+        "Baths": null,
+        "Address": "7 DeKalb Ave, Brooklyn, NY 11201"
     },
     {
-        "Price": "2200-3000",
+        "Price": "1799-3299",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "94-25 57th Ave,  Elmhurst, NY 11373"
+    },
+    {
+        "Price": "1799-3299",
+        "price_type": "range",
+        "Beds": 2.0,
+        "Baths": null,
+        "Address": "88-25 153rd St, Jamaica, NY 11432"
+    },
+    {
+        "Price": "1550-3500",
         "price_type": "range",
         "Beds": 3,
-        "Baths": 1,
-        "Address": "45278 Cove Manor Rd, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/p1PMOPP4SEHyUTcUepRp8pIf2gvEvxJ-5tZlOaZMUz0/115/45278-cove-manor-rd-california-md-building-photo.jpg?p=1"
+        "Baths": null,
+        "Address": "2000 E Tremont Ave, Bronx, NY 10462"
     },
     {
-        "Price": "3200",
+        "Price": "$3,703 - $5,597",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "150 E 34th St, New York, NY 10016"
+    },
+    {
+        "Price": "$3,200-$3,700",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "605 W 112th St, New York, NY 10025"
+    },
+    {
+        "Price": "4500-9000",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "400 W 42nd St, New York, NY 10036"
+    },
+    {
+        "Price": "3461-7522",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "345-395 South End Ave, New York, NY 10280"
+    },
+    {
+        "Price": "4500",
         "price_type": "fixed",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "315 W 57th St, New York, NY 10019"
+    },
+    {
+        "Price": "3067-6873",
+        "price_type": "range",
+        "Beds": 3,
+        "Address": "888 Main St, New York, NY 10044"
+    },
+    {
+        "Price": "4500-14970",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "888 6th Ave, New York, NY 10001"
+    },
+    {
+        "Price": "3725-7200",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "45-19 Davis St, Long Island City, NY 11101"
+    },
+    {
+        "Price": "3272-8995",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "26-38 Jackson Ave, Queens, NY 11101"
+    },
+    {
+        "Price": "$3,299 - $5,649",
+        "price_type": "range",
+        "Beds": "1-3",
+        "Baths": null,
+        "Address": "The Bay 2971 Shell Rd, Brooklyn, NY 11224"
+    },
+    {
+        "Price": "3300-4100",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "26-38 21st St, Astoria, NY 11102"
+    },
+    {
+        "Price": "2687-4725",
+        "price_type": "range",
+        "Beds": "Studio - 2",
+        "Baths": null,
+        "Address": "4414 Douglaston Pky, Douglaston, NY 11363"
+    },
+    {
+        "Price": "3200-5600",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "931 Carroll St, Brooklyn, NY 11225"
+    },
+    {
+        "Price": "3140-4795",
+        "price_type": "range",
+        "Beds": 1.5,
+        "Baths": null,
+        "Address": "1515 Surf Ave, Brooklyn, NY 11224"
+    },
+    {
+        "Price": "2773-4120",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "1277 E 14th St, Brooklyn, NY 11230"
+    },
+    {
+        "Price": "2675-4350",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "6902 Queens Blvd, Woodside, NY 11377"
+    },
+    {
+        "Price": "2000-3200",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "14735 95th Ave, Jamaica, NY 11435"
+    },
+    {
+        "Price": "2121-3287",
+        "price_type": "range",
+        "Beds": 3.0,
+        "Baths": null,
+        "Address": "38 6th Ave, Brooklyn, NY 11217"
+    },
+    {
+        "Price": "2169-3320",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "535 Carlton Ave, Brooklyn, NY 11238"
+    },
+    {
+        "Price": "4107-11505",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "625 W 57th St, New York, NY 10019"
+    },
+    {
+        "Price": "3505-6018",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "1849 2nd Ave, New York, NY 10128"
+    },
+    {
+        "Price": "4066-7845",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "155 E 31st St, New York, NY 10016"
+    },
+    {
+        "Price": "3584-4950",
+        "price_type": "range",
+        "Beds": 1.0,
+        "Baths": null,
+        "Address": "601 W 57th St, New York, NY 10019"
+    },
+    {
+        "Price": "4460-7784",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "100 W 31st St, New York, NY 10001"
+    },
+    {
+        "Price": "2700-7000",
+        "price_type": "range",
         "Beds": 4,
-        "Baths": 3.5,
-        "Address": "23259 Windflower Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/fcDmRuRJd2GBVrsv8wyh-fLVRrcAfy28KilkbNsCnCI/115/23259-windflower-way-california-md-building-photo.jpg?p=1"
+        "Baths": null,
+        "Address": "517 W 113th St, New York, NY 10025"
     },
     {
-        "Price": "2200",
-        "price_type": "fixed",
+        "Price": "3276-7384",
+        "price_type": "range",
         "Beds": 3,
+        "Baths": null,
+        "Address": "2959 Northern Blvd, Long Island City, NY 11101"
+    },
+    {
+        "Price": "2750-4500",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "1890 Pelham Pky S, Bronx, NY 10461"
+    },
+    {
+        "Price": "1450-1550",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "587-599 Central Ave, Brooklyn, NY 11207"
+    },
+    {
+        "Price": "3800-4600",
+        "price_type": "range",
+        "Beds": 0,
+        "Baths": null,
+        "Address": "Placemakr Wall Street 110 Wall St, New York, NY 10005"
+    },
+    {
+        "Price": "4600-10500",
+        "price_type": "range",
+        "Beds": 4,
+        "Baths": null,
+        "Address": "53-57 Park Pl, New York, NY 10007"
+    },
+    {
+        "Price": "4995-5225",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "Murray Park, 120 E 34th St, New York, NY 10016"
+    },
+    {
+        "Price": "4500-5500",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "62 W 106th St, New York, NY 10025"
+    },
+    {
+        "Price": "2175-4000",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "569 Lexington Ave, New York, NY 10022"
+    },
+    {
+        "Price": "2175-3900",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "525 Lexington Ave, New York, NY 10017"
+    },
+    {
+        "Price": "1990-2240",
+        "price_type": "range",
+        "Beds": 0,
+        "Baths": null,
+        "Address": "246 W 108th St, New York, NY 10025"
+    },
+    {
+        "Price": "2600-4150",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "300 W 20th St, New York, NY 10011"
+    },
+    {
+        "Price": "$1,490 - $1,837",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "346-354 Manhattan Ave, New York, NY 10026"
+    },
+    {
+        "Price": "1450-2090",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "125 W 138th St, New York, NY 10030"
+    },
+    {
+        "Price": "1780-3500",
+        "price_type": "range",
+        "Beds": 0,
+        "Baths": null,
+        "Address": "12 W 44TH St, New York, NY 10036"
+    },
+    {
+        "Price": "3500-9000",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "540 Fulton St, Brooklyn, NY 11201"
+    },
+    {
+        "Price": "3400-10000",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "77 Commercial St, Brooklyn, NY 11222"
+    },
+    {
+        "Price": "3175-5252",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "Gold St, Brooklyn, NY 11201"
+    },
+    {
+        "Price": "3159-5850",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "Fulton Street, Brooklyn, NY 11216"
+    },
+    {
+        "Price": "3145-4741",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "111 Lawrence St, Brooklyn, NY 11201"
+    },
+    {
+        "Price": "2750-3350",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "190 Beach 69th St, Arverne, NY 11692"
+    },
+    {
+        "Price": "2000-3900",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "119 Columbia Hts, Brooklyn, NY 11201"
+    },
+    {
+        "Price": "2890-3900",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "874 Willoughby Ave, Brooklyn, NY 11221"
+    },
+    {
+        "Price": "3100-3200",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "137-02 Northern Blvd, Flushing, NY 11354"
+    },
+    {
+        "Price": "2673-3398",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "445 Gerard Ave, The Bronx, NY 10451"
+    },
+    {
+        "Price": "3300-3450",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "16-70 Bell Blvd, Bayside, NY 11360"
+    },
+    {
+        "Price": "$3,100 - $4,900",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "4720 3rd Ave, Bronx, NY 10458"
+    },
+    {
+        "Price": "1900-2780",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "186 N 6th St, Brooklyn, NY 11211"
+    },
+    {
+        "Price": "2850-3025",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "520-550 Seaview Ave, Staten Island, NY 10305"
+    },
+    {
+        "Price": "Call for Rent",
+        "price_type": "unknown",
+        "Beds": "3-Studio",
+        "Baths": null,
+        "Address": "96-02-96-40 57th Ave, Corona, NY 11368"
+    },
+    {
+        "Price": "1250-1690",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "854 Hancock St, Brooklyn, NY 11233"
+    },
+    {
+        "Price": "2538-5250",
+        "price_type": "range",
+        "Beds": 2.0,
+        "Baths": null,
+        "Address": "54 Noll St, Brooklyn, NY 11206"
+    },
+    {
+        "Price": "1695",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "4 Pleasant Plains Ave, Staten Island, NY 10309"
+    },
+    {
+        "Price": "2295",
+        "price_type": "fixed",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "496 Elverton Ave, Staten Island, NY 10308"
+    },
+    {
+        "Price": "3100-3200",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "83-33 118th St, Kew Gardens, NY 11415"
+    },
+    {
+        "Price": "2400-6400",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "2475 Hughes Ave, Bronx, NY 10458"
+    },
+    {
+        "Price": "$1,495 - $2,200",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "26A Scholes St, Brooklyn, NY 11206"
+    },
+    {
+        "Price": "2150-4250",
+        "price_type": "range",
+        "Beds": 3,
+        "Baths": null,
+        "Address": "2840 Atlantic Ave, Brooklyn, NY 11207"
+    },
+    {
+        "Price": "2125-3395",
+        "price_type": "range",
+        "Beds": 1,
+        "Baths": null,
+        "Address": "35-01-09 191st St, Flushing, NY 11358"
+    },
+    {
+        "Price": "1995-3250",
+        "price_type": "range",
+        "Beds": 2.0,
+        "Baths": null,
+        "Address": "43 - 60 Douglaston Pky, Douglaston, NY 11363"
+    },
+    {
+        "Price": "2199-2720",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "5717 Shore Front Pky, Arverne, NY 11692"
+    },
+    {
+        "Price": "1700-2775",
+        "price_type": "range",
+        "Beds": 2,
+        "Baths": null,
+        "Address": "3470 Fort Independence St, Bronx, NY 10463"
+    },
+    {
+        "Price": "7750",
+        "price_type": "fixed",
+        "Beds": 2,
+        "Baths": 1.0,
+        "Address": "1 Astor Pl, New York, NY 10003"
+    },
+    {
+        "Price": "7500",
+        "price_type": "fixed",
+        "Beds": 5,
         "Baths": 3,
-        "Address": "23056 Foxglove Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/OVpv0P-Ul7MW0AZhOhd68noel__Zn-CW6qlt7h7r4nQ/115/23056-foxglove-way-california-md-building-photo.jpg?p=1"
+        "Address": "439 W 43rd St, New York, NY 10036"
     },
     {
-        "Price": "1795-1965",
-        "price_type": "range",
-        "Beds": 2,
-        "Baths": null,
-        "Address": "21295 Mayfaire Ln, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/jLaEf9yQ64NNPPKvAOW0kcJwkWa9DZHT1hoZTymQqZs/118/park-villas-lexington-park-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2175-2375",
-        "price_type": "range",
-        "Beds": 2,
-        "Baths": null,
-        "Address": "45660 Jillian Ct, Great Mills, MD 20634",
-        "thumbnail_url": "https://images1.apartments.com/i2/nBRCqgcDoeWFLjzgGlxP69_7ytqtD0UOp4CkdwFb5MQ/118/villas-at-greenview-west-great-mills-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": 1200,
-        "price_type": "fixed",
-        "Beds": 2.5,
-        "Baths": null,
-        "Address": "45970 Foxchase Dr, Great Mills, MD 20634",
-        "thumbnail_url": "https://images1.apartments.com/i2/P6ahfgoVFFfUfzK8MVp1Kh3AGWDi8tY00swd2_VcsNQ/118/admirals-landing-great-mills-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "$2,350",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 3.0,
-        "Address": "22789 Bayside Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/Max7_pRpojl5yq0Wb-0Otd7Iai79QG6_wLVi9blL1kY/115/22789-bayside-way-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "900",
+        "Price": "4000",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21628 Great Mills Rd Unit E, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-e-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "400 E 71st St, New York, NY 10021"
     },
     {
-        "Price": "1142-1500",
-        "price_type": "range",
-        "Beds": 1,
-        "Baths": null,
-        "Address": "21691 Eric Rd, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/4YyKZj9C2LT8HdmEWQXf7Y4iDYsXExN-ckbnzhN8fRI/115/patuxent-crossing-lexington-park-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "900",
-        "price_type": "fixed",
-        "Beds": 1,
-        "Baths": 1.0,
-        "Address": "21628 Great Mills Rd Unit E2, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-e2-lexington-park-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2900",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 4,
-        "Address": "45318 Fog Horn Wy, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/sK_Mf1AZb2szox-Bqj53F-SyBNb8sHYRvyxIVimU4Cs/115/45318-fog-horn-wy-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "1050",
+        "Price": "4695",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21632 Great Mills Rd Unit 2, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/jQpJLdvMQM8c_WMBKNrvWYPFzQs8vzizfp_t6b-k3Yo/115/21632-great-mills-rd-unit-2-lexington-park-md-building-photo.jpg?p=1"
+        "Address": null
     },
     {
-        "Price": "2880",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 3.5,
-        "Address": "21298 Bethmill Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/oVuTQH5WKUI5wWI0FRaCVogpVZlMVwVgLZB9YNGn1oU/115/21298-bethmill-way-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2200",
-        "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 1.5,
-        "Address": "46359 Columbus Dr, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/Ln1m0Qp5Y_K4hIjKdguBFtoGp-CkUijvDDSI52tu694/115/46359-columbus-dr-lexington-park-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "1725",
+        "Price": "6480",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "22572 Dunleigh Dr Unit B, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/ip3r8upcJNmWl21X1qpcTxYiYYg_YMfSbs4B67Mci9Q/115/22572-dunleigh-dr-unit-b-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "101 W 15th St Unit FL5-ID19, New York, NY 10011"
     },
     {
-        "Price": "2150",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 2.5,
-        "Address": "45264 Woodstown Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/8k9t2PGy31o8Hum8yvmjpV0YNPuP6l20MPSm7ZWslGc/115/45264-woodstown-way-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": 1050,
+        "Price": "5570",
         "price_type": "fixed",
         "Beds": 0,
-        "Baths": 1,
-        "Address": "21632 Great Mills Rd Unit 1, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/Y8IUdKWMKLyVk2kJ08X4hLGx2P7HjYxQvlcNJ88XJBc/115/21632-great-mills-rd-unit-1-lexington-park-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2200",
-        "price_type": "fixed",
-        "Beds": 3,
         "Baths": 1.0,
-        "Address": "45278 Cove Manor Rd, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/p1PMOPP4SEHyUTcUepRp8pIf2gvEvxJ-5tZlOaZMUz0/115/45278-cove-manor-rd-california-md-building-photo.jpg?p=1"
+        "Address": "101 W 15th St Unit FL6-ID34, New York, NY 10011"
     },
     {
-        "Price": "900",
+        "Price": "4000",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21628 Great Mills Rd Unit D, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-d-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "138 Bowery Unit 8H, New York, NY 10013"
     },
     {
-        "Price": "2800",
-        "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 2.0,
-        "Address": "23415 S Patuxent Beach Rd, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/Z-huzB3e-k8VVe-l_COCXHBfH4A6xEoRqTjHrJ88VXI/115/23415-s-patuxent-beach-rd-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "$2,200",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 3.5,
-        "Address": "43719 Winterberry Wy, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/vSGEG3nSYuHgWBYM0uPeqsOwZmxQtkkrC2-ks1Zmvv8/115/43719-winterberry-wy-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "3200",
-        "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 3.5,
-        "Address": "23259 Windflower Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/fcDmRuRJd2GBVrsv8wyh-fLVRrcAfy28KilkbNsCnCI/115/23259-windflower-way-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2200",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 3,
-        "Address": "23056 Foxglove Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/OVpv0P-Ul7MW0AZhOhd68noel__Zn-CW6qlt7h7r4nQ/115/23056-foxglove-way-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2350",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 3,
-        "Address": "22789 Bayside Way, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/Max7_pRpojl5yq0Wb-0Otd7Iai79QG6_wLVi9blL1kY/115/22789-bayside-way-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "2900",
-        "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 4.0,
-        "Address": "45467 Concord Wy, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/dDhFcLh34tunWgsIUJ2xb7YcjK0_j50SsJi8BTwtWIE/115/45467-concord-wy-california-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "$1500",
+        "Price": "5100",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "23244 Chestnut Oak Ct, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/65sEKIqT303WPEjKO2RU7fOZ_Tuh0yzNPPWsEZaGxz4/115/23244-chestnut-oak-ct-california-md-building-photo.jpg?p=1"
+        "Address": "63 Wall St Unit FL28-ID1138, New York, NY 10005"
     },
     {
-        "Price": "2900",
-        "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 3.25,
-        "Address": "22445 Greenview Pkwy, Great Mills, MD 20634",
-        "thumbnail_url": "https://images1.apartments.com/i2/EJGRTZrttMpHqoZ_UzIAwuJlvT1X9bEiwH1dJlFqdSY/115/22445-greenview-pkwy-great-mills-md-building-photo.jpg?p=1"
-    },
-    {
-        "Price": "900",
+        "Price": "2890",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21628 Great Mills Rd Unit E2, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-e2-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "104 W 83rd St Unit 3B, New York, NY 10024"
     },
     {
-        "Price": "1050",
+        "Price": "4360",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21632 Great Mills Rd Unit 2, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/jQpJLdvMQM8c_WMBKNrvWYPFzQs8vzizfp_t6b-k3Yo/115/21632-great-mills-rd-unit-2-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "123 Washington St Unit FL29-ID1371, New York, NY 10006"
     },
     {
-        "Price": "2200",
+        "Price": "3300",
         "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 1.5,
-        "Address": "46359 Columbus Dr, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/Ln1m0Qp5Y_K4hIjKdguBFtoGp-CkUijvDDSI52tu694/115/46359-columbus-dr-lexington-park-md-building-photo.jpg?p=1"
+        "Beds": 1,
+        "Baths": 1
     },
     {
-        "Price": "$1,050",
+        "Price": "3780",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21632 Great Mills Rd Unit 1, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/Y8IUdKWMKLyVk2kJ08X4hLGx2P7HjYxQvlcNJ88XJBc/115/21632-great-mills-rd-unit-1-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "250 E 50th St Unit FL2-ID1722, New York, NY 10022"
     },
     {
-        "Price": "900",
+        "Price": "3600",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1,
-        "Address": "21628 Great Mills Rd Unit D, Lexington Park, MD 20653",
-        "thumbnail_url": "https://images1.apartments.com/i2/CPLTmPgMdrdVYDLq0esozaJjg_G7Ne_ckqCM5KpGJ-0/115/21628-great-mills-rd-unit-d-lexington-park-md-building-photo.jpg?p=1"
+        "Address": "438 W 37th St Unit 11F, New York, NY 10018"
     },
     {
-        "Price": "2800",
+        "Price": "5460",
         "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 2.0,
-        "Address": "23415 S Patuxent Beach Rd, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/Z-huzB3e-k8VVe-l_COCXHBfH4A6xEoRqTjHrJ88VXI/115/23415-s-patuxent-beach-rd-california-md-building-photo.jpg?p=1"
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "51 Leroy St Unit FL1-ID1790, New York, NY 10014"
     },
     {
-        "Price": "2200",
+        "Price": "$7480",
         "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 3.5,
-        "Address": "43719 Winterberry Wy, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/vSGEG3nSYuHgWBYM0uPeqsOwZmxQtkkrC2-ks1Zmvv8/115/43719-winterberry-wy-california-md-building-photo.jpg?p=1"
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "101 W 15th St Unit FL2-ID7, New York, NY 10011"
     },
     {
-        "Price": 2900,
+        "Price": "4750",
         "price_type": "fixed",
-        "Beds": 3,
-        "Baths": 4,
-        "Address": "45467 Concord Wy, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/dDhFcLh34tunWgsIUJ2xb7YcjK0_j50SsJi8BTwtWIE/115/45467-concord-wy-california-md-building-photo.jpg?p=1"
+        "Beds": 1,
+        "Baths": 1
     },
     {
-        "Price": "$1500",
+        "Price": "5410",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "141 E 33rd St Unit FL5-ID4, New York, NY 10016"
+    },
+    {
+        "Price": "$5260",
         "price_type": "fixed",
         "Beds": 1,
         "Baths": 1.0,
-        "Address": "23244 Chestnut Oak Ct, California, MD 20619",
-        "thumbnail_url": "https://images1.apartments.com/i2/65sEKIqT303WPEjKO2RU7fOZ_Tuh0yzNPPWsEZaGxz4/115/23244-chestnut-oak-ct-california-md-building-photo.jpg?p=1"
+        "Address": "235 W 48th St Unit FL34-ID14, New York, NY 10036"
     },
     {
-        "Price": 2900,
+        "Price": "7480",
         "price_type": "fixed",
-        "Beds": 4,
-        "Baths": 3.25,
-        "Address": "22445 Greenview Pkwy, Great Mills, MD 20634",
-        "thumbnail_url": "https://images1.apartments.com/i2/EJGRTZrttMpHqoZ_UzIAwuJlvT1X9bEiwH1dJlFqdSY/115/22445-greenview-pkwy-great-mills-md-building-photo.jpg?p=1"
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "101 W 15th St Unit FL5-ID33, New York, NY 10011"
+    },
+    {
+        "Price": "4810",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "63 Wall St Unit FL31-ID11, New York, NY 10005"
+    },
+    {
+        "Price": "7550",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "101 W 15th St Unit FL3-ID25, New York, NY 10011"
+    },
+    {
+        "Price": 5420,
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1.0,
+        "Address": "105 Duane St Unit FL46-ID38, New York, NY 10007"
+    },
+    {
+        "Price": "5260",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "235 W 48th St Unit FL24-ID29, New York, NY 10036"
+    },
+    {
+        "Price": "5480",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "235 W 48th St Unit FL28-ID36, New York, NY 10036"
+    },
+    {
+        "Address": "141 E 33rd St Unit FL12-ID17",
+        "Beds": 1,
+        "Baths": 1,
+        "Price": 5050,
+        "price_type": "fixed"
+    },
+    {
+        "Price": "4520",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "108 W 15th St Unit FL3-ID31, New York, NY 10011"
+    },
+    {
+        "Price": "5620",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "210 W 70th St Unit FL12-ID16, New York, NY 10023"
+    },
+    {
+        "Price": "5590",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "101 W 15th St Unit FL5-ID24, New York, NY 10011"
+    },
+    {
+        "Price": "9170",
+        "price_type": "fixed",
+        "Beds": 2,
+        "Baths": 1.0,
+        "Address": "105 Duane St Unit FL19-ID39, New York, NY 10007"
+    },
+    {
+        "Price": "3840",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "67 Wall St Unit FL12-ID45, New York, NY 10005"
+    },
+    {
+        "Price": "5500",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1.0,
+        "Address": "235 W 48th St Unit FL30-ID8, New York, NY 10036"
+    },
+    {
+        "Price": "8160",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "101 W 15th St Unit FL2-ID20, New York, NY 10011"
+    },
+    {
+        "Price": "7070",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1,
+        "Address": "200 E 11th St Unit FL7-ID10, New York, NY 10003"
+    },
+    {
+        "Price": "3995",
+        "price_type": "fixed",
+        "Beds": 1,
+        "Baths": 1
+    },
+    {
+        "Price": "3500",
+        "price_type": "fixed",
+        "Beds": 2,
+        "Baths": 2,
+        "Address": "21 Adelphi St Unit 2L, Brooklyn, NY 11205"
+    },
+    {
+        "Price": "3000",
+        "price_type": "fixed",
+        "Beds": 2,
+        "Baths": 1,
+        "Address": "122 Thomas S Boyland St Unit 2, Brooklyn, NY 11233"
     }
 ]

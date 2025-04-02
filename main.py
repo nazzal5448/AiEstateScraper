@@ -1,11 +1,17 @@
 import json
 import os
+import subprocess
 import dotenv
 import asyncio
 from utils.render import render
 from utils.extract import Extract
 from config.tools import get_config
-    
+from playwright.async_api import async_playwright
+
+# Install Playwright browsers on startup
+async def install_browsers():
+    subprocess.run(["playwright", "install", "--with-deps"], check=True)
+
 
 async def render_and_extract(location:str,
                         headless_browser:bool=True,
@@ -25,8 +31,9 @@ async def render_and_extract(location:str,
     '''
     dotenv.load_dotenv(".env")
     API_KEY = os.environ.get("GROQ_API_KEY")
-
+await install_browsers()
     config = get_config()
+    await install_browsers()
     
     if callback:
         callback("status", f"Starting to render pages for {location}...")
