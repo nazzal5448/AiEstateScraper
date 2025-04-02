@@ -1,14 +1,42 @@
 # AI Estate Scraper
 
-A web-based interface for scraping property listings from apartments.com with real-time progress updates and results display.
+A Streamlit app that scrapes property listings from apartments.com and extracts property data using AI.
 
 ## Features
 
-- Real-time property scraping with visual feedback
-- Progress tracking and status updates
-- Immediate display of properties as they're found
-- Download results as JSON
-- User-friendly interface
+- Search for properties by location (city, neighborhood, zip code)
+- View property details including price, beds, baths, and amenities
+- Automatic detection of cloud environments for seamless deployment
+- Demo mode with pre-scraped data
+
+## Deployment
+
+The app can be deployed both locally and on Streamlit Cloud.
+
+### Local Deployment
+
+For local deployment, you'll need to install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then run the app:
+
+```bash
+streamlit run app.py
+```
+
+### Streamlit Cloud Deployment
+
+The app automatically detects when it's running on Streamlit Cloud and uses pre-scraped demo data instead of attempting live scraping, which would require system dependencies.
+
+## Technical Details
+
+- Built with Streamlit, Playwright, and Groq LLM
+- Implements cloud environment detection
+- Uses fallback mechanisms for better user experience
+- Handles various edge cases and errors gracefully
 
 ## Setup
 

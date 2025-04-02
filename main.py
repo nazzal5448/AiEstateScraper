@@ -7,13 +7,29 @@ from utils.render import render
 from utils.extractor import extract_property_data
 from config.tools import get_config
 from playwright.async_api import async_playwright
+import sys
 
 # Function to check if running in cloud environment
 def is_cloud_environment():
-    return os.environ.get("STREAMLIT_CLOUD") is not None or \
-           os.environ.get("IS_CLOUD_ENV") is not None or \
-           "streamlit.app" in os.environ.get("HOSTNAME", "") or \
-           os.path.exists("/.dockerenv")
+    # Check for common cloud environment indicators
+    if (os.environ.get("STREAMLIT_CLOUD") is not None or 
+            os.environ.get("IS_CLOUD_ENV") is not None or 
+            "streamlit.app" in os.environ.get("HOSTNAME", "") or 
+            os.path.exists("/.dockerenv")):
+        return True
+    
+    # Check for Streamlit Cloud specific paths
+    if (os.path.exists("/mount/src") or 
+            "/home/adminuser/venv" in sys.path or 
+            os.path.exists("/home/adminuser/venv")):
+        return True
+        
+    # Check if we're running in a path that looks like Streamlit Cloud
+    current_path = os.getcwd()
+    if "/mount/src" in current_path:
+        return True
+        
+    return False
 
 # Install Playwright browsers on startup
 async def install_browsers():

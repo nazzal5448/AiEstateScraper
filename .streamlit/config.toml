@@ -1,18 +1,23 @@
 [global]
 developmentMode = false
+logLevel = "error"
 
 [server]
-enableStaticServing = false
+enableStaticServing = true
 enableCORS = false
-enableXsrfProtection = false
-fileWatcherType = "none"
+maxUploadSize = 200
+maxMessageSize = 200
 
 [browser]
 gatherUsageStats = false
 
 [theme]
-primaryColor = "#e67e22"
-backgroundColor = "#f8f9fa"
-secondaryBackgroundColor = "#ffffff"
-textColor = "#2c3e50"
-font = "sans serif" 
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[logger]
+level = "error"
+messageFormat = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 

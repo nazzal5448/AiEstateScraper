@@ -17,10 +17,25 @@ headless = (headless_str.lower() == 'true')
 
 # Function to check if running in cloud environment
 def is_cloud_environment():
-    return os.environ.get("STREAMLIT_CLOUD") is not None or \
-           os.environ.get("IS_CLOUD_ENV") is not None or \
-           "streamlit.app" in os.environ.get("HOSTNAME", "") or \
-           os.path.exists("/.dockerenv")
+    # Check for common cloud environment indicators
+    if (os.environ.get("STREAMLIT_CLOUD") is not None or 
+            os.environ.get("IS_CLOUD_ENV") is not None or 
+            "streamlit.app" in os.environ.get("HOSTNAME", "") or 
+            os.path.exists("/.dockerenv")):
+        return True
+    
+    # Check for Streamlit Cloud specific paths
+    if (os.path.exists("/mount/src") or 
+            "/home/adminuser/venv" in sys.path or 
+            os.path.exists("/home/adminuser/venv")):
+        return True
+        
+    # Check if we're running in a path that looks like Streamlit Cloud
+    current_path = os.getcwd()
+    if "/mount/src" in current_path:
+        return True
+        
+    return False
 
 # Status file paths
 STATUS_FILE = "status/current_status.txt"

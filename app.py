@@ -6,6 +6,7 @@ import asyncio
 from main import render_and_extract
 import platform
 import glob
+import sys
 
 # Ensure directories exist
 os.makedirs("outputs", exist_ok=True)
@@ -282,6 +283,16 @@ def run_scraper(location, headless):
     import subprocess
     import sys
     
+    # Check if running in cloud environment
+    if is_cloud_environment():
+        st.error("Cannot run live scraping in cloud environment. Using demo data instead.")
+        st.session_state.demo_loaded = True
+        write_status(f"Cloud environment detected - using demo data for {location}")
+        # Set basic state for UI continuity
+        write_properties(load_prescraped_data())
+        write_page_info(1, 1)
+        return
+    
     # Clear previous status files
     if os.path.exists(STATUS_FILE):
         os.remove(STATUS_FILE)
@@ -320,12 +331,43 @@ location = sys.argv[1]
 headless_str = sys.argv[2]
 headless = (headless_str.lower() == 'true')
 
+# Function to check if running in cloud environment
+def is_cloud_environment():
+    # Check for common cloud environment indicators
+    if (os.environ.get("STREAMLIT_CLOUD") is not None or 
+            os.environ.get("IS_CLOUD_ENV") is not None or 
+            "streamlit.app" in os.environ.get("HOSTNAME", "") or 
+            os.path.exists("/.dockerenv")):
+        return True
+    
+    # Check for Streamlit Cloud specific paths
+    if (os.path.exists("/mount/src") or 
+            "/home/adminuser/venv" in sys.path or 
+            os.path.exists("/home/adminuser/venv")):
+        return True
+        
+    # Check if we're running in a path that looks like Streamlit Cloud
+    current_path = os.getcwd()
+    if "/mount/src" in current_path:
+        return True
+        
+    return False
+
 # Status file paths
 STATUS_FILE = "status/current_status.txt"
 PROPERTIES_FILE = "status/properties.json"
 LOG_FILE = "status/log.txt"
 ACTIVE_FILE = "status/active.txt"
 PAGE_INFO_FILE = "status/page_info.json"
+
+# Function to load pre-scraped demo data
+def load_demo_data():
+    try:
+        with open("outputs/outputs.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading demo data: {e}")
+        return []
 
 # Make sure to mark as inactive when exiting
 def ensure_inactive():
@@ -391,6 +433,21 @@ def status_callback(update_type, data):
 
 async def main():
     try:
+        # Check if running in cloud environment
+        if is_cloud_environment():
+            print("Cloud environment detected - using demo data instead of scraping")
+            with open(STATUS_FILE, "w") as f:
+                f.write(f"Using pre-scraped demo data instead of live scraping")
+                
+            # Load demo data
+            demo_properties = load_demo_data()
+            for prop in demo_properties:
+                status_callback("property", prop)
+                await asyncio.sleep(0.1)  # Small delay between properties
+                
+            status_callback("complete", len(demo_properties))
+            return
+            
         print(f"Starting scraping process for {location} with headless={headless}")
         await render_and_extract(
             location=location,
@@ -455,10 +512,25 @@ check_active_process()
 
 # Function to determine if we're running in a cloud environment
 def is_cloud_environment():
-    return os.environ.get("STREAMLIT_CLOUD") is not None or \
-           os.environ.get("IS_CLOUD_ENV") is not None or \
-           "streamlit.app" in os.environ.get("HOSTNAME", "") or \
-           os.path.exists("/.dockerenv")
+    # Check for common cloud environment indicators
+    if (os.environ.get("STREAMLIT_CLOUD") is not None or 
+            os.environ.get("IS_CLOUD_ENV") is not None or 
+            "streamlit.app" in os.environ.get("HOSTNAME", "") or 
+            os.path.exists("/.dockerenv")):
+        return True
+    
+    # Check for Streamlit Cloud specific paths
+    if (os.path.exists("/mount/src") or 
+            "/home/adminuser/venv" in sys.path or 
+            os.path.exists("/home/adminuser/venv")):
+        return True
+        
+    # Check if we're running in a path that looks like Streamlit Cloud
+    current_path = os.getcwd()
+    if "/mount/src" in current_path:
+        return True
+        
+    return False
 
 # Function to load pre-scraped data
 def load_prescraped_data():

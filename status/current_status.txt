@@ -1,1 +1,1 @@
-Processing property 7/40 on page 4
+Ready to scrape. Please enter a location and click "Start Scraping" or use "Load Demo Data".
