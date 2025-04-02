@@ -98,3 +98,18 @@
 [17:30:27] Found property: Unknown - N/A
 [17:30:28] Processing property 20/27 on page 1
 [17:30:29] Found property: Unknown - N/A
+[17:30:30] Processing property 21/27 on page 1
+[17:30:31] Found property: Unknown - N/A
+[17:30:32] Processing property 22/27 on page 1
+[17:30:45] Found property: Unknown - N/A
+[17:30:46] Processing property 23/27 on page 1
+[17:30:47] Found property: Unknown - N/A
+[17:30:48] Processing property 24/27 on page 1
+[17:31:00] Found property: Unknown - N/A
+[17:31:01] Processing property 25/27 on page 1
+[17:31:11] Found property: Unknown - N/A
+[17:31:12] Processing property 26/27 on page 1
+[17:31:23] Found property: Unknown - N/A
+[17:31:24] Processing property 27/27 on page 1
+[17:31:24] Found property: Unknown - N/A
+[17:31:27] Saved 23 properties to outputs/outputs.json

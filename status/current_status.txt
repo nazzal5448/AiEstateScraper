@@ -1,1 +1,1 @@
-Processing property 20/27 on page 1
+Saved 23 properties to outputs/outputs.json
