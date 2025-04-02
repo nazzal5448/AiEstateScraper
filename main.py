@@ -110,4 +110,4 @@ if __name__ == "__main__":
     location = input("Enter the location you want to scrape property listings for: ")
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
-    loop.run_until_complete(render_and_extract(location, running_from_file=True, headless_browser=False))
+    loop.run_until_complete(render_and_extract(location, running_from_file=True, headless_browser=True))
