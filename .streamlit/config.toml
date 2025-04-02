@@ -1,15 +1,14 @@
 [global]
 developmentMode = false
 
-[runner]
-# Timeout for browser operations (milliseconds)
-timeout = 200000
+[server]
+enableStaticServing = false
+enableCORS = false
+enableXsrfProtection = false
+fileWatcherType = "none"
 
 [browser]
 gatherUsageStats = false
-
-[server]
-enableStaticServing = true
 
 [theme]
 primaryColor = "#e67e22"
